@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e308abd-f1c4-49f0-92b6-295a4a80cfa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabrica.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/Module/Fabrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/Module/Produtos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/UI/FabricaUI.java" afterDir="false" />
+    <list default="true" id="8e308abd-f1c4-49f0-92b6-295a4a80cfa5" name="Changes" comment="k">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/isec/fabrica/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/isec/fabrica/Module/Fabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/Module/Fabrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/isec/fabrica/Module/Produtos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/fabrica/Module/Produtos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +55,23 @@
       <option name="presentableId" value="Default" />
       <updated>1741730366007</updated>
       <workItem from="1741730367382" duration="6016000" />
-      <workItem from="1741962000409" duration="2819000" />
+      <workItem from="1741962000409" duration="6739000" />
     </task>
+    <task id="LOCAL-00001" summary="k">
+      <created>1741966588217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741966588217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="k" />
+    <option name="LAST_COMMIT_MESSAGE" value="k" />
   </component>
 </project>

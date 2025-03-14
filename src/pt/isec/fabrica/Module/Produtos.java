@@ -6,21 +6,35 @@ import java.util.Objects;
 
 public class Produtos {
     private final int nSerie;
-    private final LocalDateTime dataFabrico;
+    private final LocalDate dataFabrico;
 
     private String estado;
 
     protected Produtos(int numSerie){
 
         this.nSerie=numSerie;
-        this.dataFabrico=LocalDateTime.now();
+        this.dataFabrico= LocalDate.now();
         this.estado="não testado";
+    }
+    protected boolean testaUnidade(){
+        if(this.estado=="aprovado")return true;
+        if(this.estado=="não testado"){
+            int luck= (int)(Math.random()*101)+1;
+            if(luck<=90){
+                this.estado="aprovado";
+                return true;
+            }else{
+                this.estado="reprovado";
+                return false;
+            }
+        }
+        return false;
     }
     public int getNumeroSerie() {
         return nSerie;
     }
 
-    public LocalDateTime getDataFabrico() {
+    public LocalDate getDataFabrico() {
         return dataFabrico;
     }
 

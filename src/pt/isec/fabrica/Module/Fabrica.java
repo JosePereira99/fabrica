@@ -27,6 +27,14 @@ public class Fabrica {
     public boolean eliminaProduto(int id){
         return produtosFabrica.remove((new Produtos(id)));
     }
+    public Produtos pesquisaProduto(int id){
+        for(Produtos produto:produtosFabrica){
+            if(produto.getNumeroSerie()==id){
+                return produto;
+            }
+        }
+        return null;
+    }
     private void listarProdutos() {
         if (produtosFabrica.isEmpty()) {
             System.out.println("Nenhum produto cadastrado.");
@@ -35,6 +43,14 @@ public class Fabrica {
             for (Produtos produto : produtosFabrica) {
                 System.out.println(produto);
             }
+        }
+    }
+    public void eliminaReprovados(){
+        produtosFabrica.removeIf(produtos -> "reprovado".equals(produtos.getEstado()));
+    }
+    public void testaUnidades(){
+        for(Produtos produto:produtosFabrica){
+            produto.testaUnidade();
         }
     }
     public String getNome(){

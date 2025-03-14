@@ -11,7 +11,14 @@ public class Main {
         fabrica.acrescentaProduto(101);
         fabrica.acrescentaProduto(102);
         fabrica.acrescentaProduto(103);
+        fabrica.acrescentaProduto(104);
+        fabrica.acrescentaProduto(105);
+        fabrica.acrescentaProduto(106);
+        fabrica.acrescentaProduto(107);
         fabrica.acrescentaProduto(101); // Tentativa de duplicação (não será adicionada)
+        fabrica.testaUnidades();
+        System.out.println(fabrica);
+        fabrica.eliminaReprovados();
 
         // Listando produtos
         System.out.println(fabrica);
@@ -24,7 +31,8 @@ public class Main {
         System.out.println(fabrica);
 
         // Exibir total de produtos criados
-        System.out.println("\nTotal de produtos criados: " + fabrica.getnTotalProdutos());
+        System.out.println("\nTotal de produtos criados: " +
+                fabrica.getnTotalProdutos());
 
 
     }
